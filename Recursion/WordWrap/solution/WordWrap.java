@@ -118,7 +118,7 @@ public class WordWrap {
 
 
     @DisplayName("WordWrap solution tests")
-    @Tag("WordWrap")
+    @Tag("WordWrapSolution")
     public static class WordWrapTest {
         @Test
         @DisplayName("Paragraph is empty")

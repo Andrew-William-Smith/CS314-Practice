@@ -117,7 +117,7 @@ public class ArithmeticSubstitution {
 
 
     @DisplayName("ArithmeticSubstitution solution tests")
-    @Tag("ArithmeticSubstitution")
+    @Tag("ArithmeticSubstitutionSolution")
     public static class ArithmeticSubstitutionTest {
         /**
          * Evaluate the arithmetic expression with the specified terms joined by the specified operators.
