@@ -3,7 +3,7 @@
 [![Skill: Native Array](https://img.shields.io/badge/skill-native%20array-blue)]()
 
 *Note:* I know this problem looks frightening, but understanding the algorithm is actually the hardest part.  Writing
-the actual code is closer to an easy-level problem and shouldn't pose too much of a challenge.
+the actual code is fairly straightforward and involves some interesting array manipulation problems.  Have fun!
 
 The [Chaocipher](https://en.wikipedia.org/wiki/Chaocipher) is a cryptographic cipher invented by John Francis Byrne in
 1918 but uncracked until 2010.  The Chaocipher algorithm is overall fairly simple, as described by Israeli cryptanalyst
@@ -83,5 +83,5 @@ left alphabet instead of the plaintext characters in the right alphabet.
 Your task is to implement Chaocipher encoding of a `String` plaintext message given left and right alphabets encoded in
 `char` arrays.  Your solution must work for the *general* case: that is, the user should be able to pass in alphabets in
 any script, including non-Latin alphabets, and your solution should correctly encode the message in those scripts.
-**Your solution must not create any additional data structures**, although you may write whatever helper methods you see
-fit.  You may **not** use any additional classes from the Java standard library.
+**Your solution must not create any additional data structures save for `char` arrays**, although you may write whatever
+helper methods you see fit.  You may **not** use any additional classes from the Java standard library.
