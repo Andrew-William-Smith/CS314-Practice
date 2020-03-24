@@ -83,5 +83,6 @@ left alphabet instead of the plaintext characters in the right alphabet.
 Your task is to implement Chaocipher encoding of a `String` plaintext message given left and right alphabets encoded in
 `char` arrays.  Your solution must work for the *general* case: that is, the user should be able to pass in alphabets in
 any script, including non-Latin alphabets, and your solution should correctly encode the message in those scripts.
-**Your solution must not create any additional data structures save for `char` arrays**, although you may write whatever
-helper methods you see fit.  You may **not** use any additional classes from the Java standard library.
+**Your solution must not create any additional data structures save for `char` arrays, `String`s, and
+`StringBuilder`s**, although you may write whatever helper methods you see fit.  You may **not** use any additional
+classes from the Java standard library.
